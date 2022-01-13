@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState } from 'react'
 
 interface State {
-  title: string;
+  title: string;c
 }
 
 interface Props {
@@ -9,6 +9,7 @@ interface Props {
   setState: React.Dispatch<React.SetStateAction<State>>;
 }
 
+// some comment
 const AppStateContext = createContext<Props | null>(null);
 
 export const AppStateProvider: React.FC<Props> = ({ children }) => {
