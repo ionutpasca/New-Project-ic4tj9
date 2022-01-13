@@ -7,6 +7,7 @@ Subject.prototype.hook = function () {
   return value;
 };
 
+// Comment
 const store = {
   value: new Subject(""),
   count: new Subject(0),
