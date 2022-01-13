@@ -1,0 +1,17 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react",
+        "@babel/preset-typescript"
+    ],
+    "env": {
+        "production": {
+            "presets": [
+                "minify"
+            ]
+        }
+    },
+    "plugins": [
+        ["@babel/transform-runtime"]
+    ]
+}
